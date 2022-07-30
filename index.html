@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <img src="./../images/patanjali.jpeg
+    " alt="patanjali"> -->
+    <header>
+        <h1 id="title">Patanjali Survey Form</h1>
+        <p id="description">Thank you for taking the time to help us improve the products</p>
+    </header>
+    <form action="" id="survey-form">
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" class="input-type" placeholder="Enter Your Name" required><br>
+        <label for="email" id="email-label">E-mail</label><br>
+        <input type="email" id="email" name="email" class="input-type" placeholder="Enter E-mail Id" required><br>
+        <label for="age" id="number-label">Age</label><br>
+        <input type="Number" id="number" placeholder="Enter Age" min="15" max="50"><br>
+        <label for="gender">Gender:</label>
+        <label for="male">Male</label>
+        <input type="radio" name="gender" class="radio" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="gender" class="radio" value="female"><br><br>
+        <label for="product" id="product">Your Favourite Product</label><br>
+        <select name="select" id="dropdown">
+            <option value="biscuits">Medicine</option>
+            <option value="Hair oil">Hair Oil</option>
+            <option value="biscuits">Face Wash</option>
+            <option value="shampoo">Toothpaste</option>
+            <option value="biscuits">Conditioner</option>
+            <option value="shampoo">Grocery</option>
+        </select><br><br>
+        <label for="likes">Products You Like-</label><br>
+        <label for="Medicine">Medicine</label>
+        <input type="checkbox" class="checkbox" value="medicine">
+        <label for="shampoo">Shampoo</label>
+        <input type="checkbox" class="checkbox" value="shampoo">
+        <label for="grocery">Grocery</label>
+        <input type="checkbox" class="checkbox" value="grocery">
+        <label for="Juices">Juices</label>
+        <input type="checkbox" class="checkbox" value="juices">
+        <label for="Ghee">Ghee</label>
+        <input type="checkbox" class="checkbox" value="ghee">
+        <br>
+        <label for="suggestion">Suggestions-</label><br>
+        <textarea name="sugg" id="suggestion-" cols="50" rows="3"></textarea><br>
+        <button id="submit">Submit</button>
+    </form>
+</body>
+</html>
